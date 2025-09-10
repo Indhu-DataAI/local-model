@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "npx vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "npx serve -s dist "
   },
   "dependencies": {
     "lucide-react": "^0.539.0",
