@@ -3,7 +3,7 @@ services:
     name: local-model
     env: node
     buildCommand: cd frontend && npm install && npm run build
-    startCommand: npx serve -s dist
+    startCommand: cd frontend && npx serve -s dist
     staticBuildPath: frontend/dist
     envVars:
       - key: NODE_ENV
